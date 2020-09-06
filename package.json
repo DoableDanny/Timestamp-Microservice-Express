@@ -1,0 +1,17 @@
+{
+  "name": "timestamp_microservice",
+  "version": "1.0.0",
+  "description": "If user inputs valid date to URL, a formatted date object is returned",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [],
+  "author": "Danny Adams",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
